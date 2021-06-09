@@ -1,0 +1,19 @@
+# Comment
+
+uint8 SEE_NOTHING = 0
+uint8 SEE_WALL    = 1
+
+string squirrel
+string command
+---
+bool[<=1]   status
+# energy is 0..100 as percentage of the max
+uint8[<=1]  energy
+# one of SEE_*
+uint8[<=1]  seeing
+# acorns, squirrels
+uint8[<=2]  smelling
+# lr/fb position of a squirrel
+uint8[<=2]  hearing
+# Something went wrong
+string[<=1] error

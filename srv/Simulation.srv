@@ -1,0 +1,6 @@
+# (Re-)start a simulation
+
+bool  restart
+int64 seed
+---
+int64 seed
